@@ -7,15 +7,12 @@
 
 package main
 
-import { 
-	"fmt",
-	"io",
-	"io/ioutil"
-"os"
-}
+import (
+	"fmt"
+)
 
 func main() {
-    fmt.Println("hello world")
+	fmt.Println("hello world")
 }
 
 func checkError(error err) {
